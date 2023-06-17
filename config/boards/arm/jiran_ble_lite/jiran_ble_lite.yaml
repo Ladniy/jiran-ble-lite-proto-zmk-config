@@ -1,0 +1,17 @@
+identifier: jiran_ble_lite
+name: Jiran BLE Lite
+url: https://github.com/Ladniy/jiran-ble-lite
+type: keyboard
+arch: arm
+toolchain:
+  - zephyr
+  - gnuarmemb
+  - xtools
+supported:
+  - adc
+  - usb_device
+  - ble
+  - ieee802154
+  - pwm
+  - watchdog
+  - gpio
